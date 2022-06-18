@@ -1,4 +1,4 @@
-package ph.gemeaux.materialloadingspinner
+package ph.gemeaux.materialloadingindicator
 
 import org.junit.Test
 
