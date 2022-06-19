@@ -5,7 +5,7 @@ Material Loading Indicator
 
 Description
 ------------
-A simple implementation of [Material Progress Indicators](https://material.io/components/progress-indicators). This library allows the showing of progress indicators anywhere in the app programmatically. 
+A simple implementation of [Material Progress Indicators](https://material.io/components/progress-indicators). This library allows the showing of progress indicators anywhere in the app programmatically. Minimum Android API level 21 (Lollipop).
 
 ## Gradle Dependency
 
@@ -46,9 +46,9 @@ MaterialCircularIndicator progressIndicator = new MaterialCircularIndicator(this
 
 ```
 progressIndicator.setCanceleable(true)
-progressIndicator.setIndicatorSize(100) //In DP
-progressIndicator.setTrackThickness(10) //In DP
-progressIndicator.setTrackCornerRadius(10) //In DP
+progressIndicator.setIndicatorSize(100) //In Dp
+progressIndicator.setTrackThickness(10) //In Dp
+progressIndicator.setTrackCornerRadius(10) //In Dp
 progressIndicator.setIndicatorColor(Color.parseColor("#4287F5"))
 progressIndicator.setTrackColor(Color.parseColor("#AEC9F5"))
 progressIndicator.setMessageTextColor(Color.parseColor("#000000"))
@@ -58,6 +58,16 @@ progressIndicator.setMessageTypeFace(Typeface.BOLD)
 progressIndicator.setProgress(90) //1 to 100
 progressIndicator.setIndeterminate(true)
 progressIndicator.setBackgroundColor(Color.parseColor("#FFFFFF"))
+```
+
+- Show
+```
+progressIndicator.show()
+```
+
+- Hide
+```
+progressIndicator.dismiss()
 ```
 
 ## Customizations
