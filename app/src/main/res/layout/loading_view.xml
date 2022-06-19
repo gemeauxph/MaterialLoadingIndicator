@@ -19,7 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:indeterminate="true"
-            app:trackCornerRadius="50dp"
+            app:trackColor="@color/fade_blue"
+            app:indicatorColor="@color/blue"
             app:indicatorSize="64dp"
             app:trackThickness="7dp" />
 
