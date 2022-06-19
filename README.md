@@ -11,7 +11,7 @@ A simple implementation of [Material Progress Indicators](https://material.io/co
 
  ``` gradle
 dependencies {
-    implementation 'com.github.gemeauxph:MaterialLoadingIndicator:1.0.0'
+    implementation 'com.github.gemeauxph:MaterialLoadingIndicator:1.0.1'
  }
  ```
 
