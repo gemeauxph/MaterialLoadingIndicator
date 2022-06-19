@@ -21,8 +21,10 @@
             android:indeterminate="true"
             app:trackColor="@color/fade_blue"
             app:indicatorColor="@color/blue"
+            app:trackColor="@color/faded_blue"
             app:indicatorSize="64dp"
-            app:trackThickness="7dp" />
+            app:trackThickness="7dp"
+            app:trackCornerRadius="10dp"/>
 
         <TextView
             android:id="@+id/tvMessage"
