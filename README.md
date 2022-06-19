@@ -5,7 +5,7 @@ Material Loading Indicator
 
 Description
 ------------
-A simple implementation of [Material Progress Indicators](https://material.io/components/progress-indicators). This library allows the showing of progress indicators anywhere in the app programmatically. Minimum Android API level 21 (Lollipop).
+A simple implementation of [Material Progress Indicators](https://material.io/components/progress-indicators). This library allows showing of progress indicators anywhere in the app programmatically without needing to create a layout file and customize the progress indicator to your needs. Minimum Android API level 21 (Lollipop).
 
 ## Gradle Dependency
 
