@@ -59,7 +59,7 @@ progressIndicator.setProgress(90) //1 to 100
 progressIndicator.setIndeterminate(true)
 progressIndicator.setBackgroundColor(Color.parseColor("#FFFFFF"))
 
-//For using color resources simply do this example
+//For using color resources simply do it like this example
 progressIndicator.setMessageTextColor(R.color.colorPrimary)
 ```
 
