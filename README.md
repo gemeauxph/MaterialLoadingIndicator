@@ -11,7 +11,7 @@ A simple implementation of [Material Progress Indicators](https://material.io/co
 
  ``` gradle
 dependencies {
-    implementation 'com.github.gemeauxph:MaterialLoadingIndicator:v1.0.4'
+    implementation 'com.github.gemeauxph:MaterialLoadingIndicator:v1.0.5'
  }
  ```
 
@@ -45,7 +45,7 @@ MaterialCircularIndicator progressIndicator = new MaterialCircularIndicator(this
 ```
 
 ```
-progressIndicator.setCanceleable(true)
+progressIndicator.setCancelable(true)
 progressIndicator.setIndicatorSize(100) //In Dp
 progressIndicator.setTrackThickness(10) //In Dp
 progressIndicator.setTrackCornerRadius(10) //In Dp
