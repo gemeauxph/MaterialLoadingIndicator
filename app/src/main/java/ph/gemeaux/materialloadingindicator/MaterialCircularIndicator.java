@@ -51,7 +51,7 @@ public class MaterialCircularIndicator {
         lytBackground.setBackgroundColor(color);
     }
 
-    public void setCanceleable(boolean canceleable) {
+    public void setCancelable(boolean canceleable) {
         alertDialog.setCancelable(canceleable);
     }
 

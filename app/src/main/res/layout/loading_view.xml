@@ -8,21 +8,21 @@
     android:padding="15dp"
     android:gravity="center">
 
-        <com.google.android.material.progressindicator.CircularProgressIndicator
-            android:id="@+id/circularProgressIndicator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:indeterminate="true"
-            app:indicatorColor="@color/blue"
-            app:trackColor="@color/faded_blue"
-            app:indicatorSize="64dp"
-            app:trackThickness="7dp"
-            app:trackCornerRadius="10dp"/>
+  <com.google.android.material.progressindicator.CircularProgressIndicator
+      android:id="@+id/circularProgressIndicator"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:indeterminate="true"
+      app:indicatorColor="@color/blue"
+      app:trackColor="@color/faded_blue"
+      app:indicatorSize="64dp"
+      app:trackThickness="7dp"
+      app:trackCornerRadius="10dp"/>
 
-        <TextView
-            android:id="@+id/tvMessage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"/>
+  <TextView
+      android:id="@+id/tvMessage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"/>
 
 </LinearLayout>
