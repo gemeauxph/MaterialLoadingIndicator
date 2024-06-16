@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 2
-        versionName "1.0.6"
+        versionName "1.0.61"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -28,6 +28,8 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    namespace = 'ph.gemeaux.materialloadingindicator'
 }
 
 dependencies {
