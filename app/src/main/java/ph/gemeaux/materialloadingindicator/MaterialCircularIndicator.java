@@ -2,8 +2,6 @@ package ph.gemeaux.materialloadingindicator;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.graphics.Typeface;
-import android.graphics.drawable.ColorDrawable;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -51,8 +49,8 @@ public class MaterialCircularIndicator {
         lytBackground.setBackgroundColor(color);
     }
 
-    public void setCancelable(boolean canceleable) {
-        alertDialog.setCancelable(canceleable);
+    public void setCancelable(boolean cancelable) {
+        alertDialog.setCancelable(cancelable);
     }
 
     public void setProgress(int progress) {
